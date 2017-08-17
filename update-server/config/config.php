@@ -229,11 +229,9 @@ return [
 			'latest' => '9.0.10',
 			'web' => 'https://doc.owncloud.org/server/9.0/admin_manual/maintenance/upgrade.html',
 		],
-		// since OC >= 9.0.9, jumping directly to 10.0 is supported
 		'9.0.10' => [
-			'latest' => '10.0.3',
-			'downloadUrl' => 'https://download.owncloud.org/community/testing/owncloud-10.0.3beta.zip',
-			'web' => 'https://doc.owncloud.org/server/9.0/admin_manual/maintenance/upgrade.html',
+			'latest' => '9.1.6',
+			'web' => 'https://doc.owncloud.org/server/9.1/admin_manual/maintenance/upgrade.html',
 		],
 		'9.0.2' => [
 			'latest' => '9.0.4',
@@ -252,11 +250,9 @@ return [
 			'latest' => '8.2.11',
 			'web' => 'https://doc.owncloud.org/server/8.2/admin_manual/maintenance/upgrade.html',
 		],
-		// 10.0.3 allows to upgrade fro 8.2.11
 		'8.2.11' => [
-			'latest' => '10.0.3',
-			'downloadUrl' => 'https://download.owncloud.org/community/testing/owncloud-10.0.3beta.zip',
-			'web' => 'https://doc.owncloud.org/server/8.2/admin_manual/maintenance/upgrade.html',
+			'latest' => '9.0.10',
+			'web' => 'https://doc.owncloud.org/server/9.0/admin_manual/maintenance/upgrade.html',
 		],
 		'8.1' => [
 			'latest' => '8.1.12',
